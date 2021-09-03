@@ -1,0 +1,19 @@
+@import 'src/styles';
+
+header {
+    background-color: $white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1em 1em -1em rgb(75 75 75 / 25%);
+
+    .header-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &__logo {
+            padding-right: 20px;
+        }
+    }
+}
